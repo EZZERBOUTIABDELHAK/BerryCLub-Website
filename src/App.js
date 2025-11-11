@@ -103,7 +103,6 @@ const BerryClubWebsite = () => {
   const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
-  // ... (après la fonction scrollToSection)
 
   const handleSubmit = async (e) => {
     e.preventDefault(); 
@@ -1024,7 +1023,7 @@ const BerryClubWebsite = () => {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                 <MapPin size={24} color="#4FD1C5" />
-                <span style={{ color: '#cbd5e1', fontSize: '16px' }}>ESI, Algiers, Algeria</span>
+                <span style={{ color: '#cbd5e1', fontSize: '16px' }}>ENPO, ORAN, Algeria</span>
               </div>
             </div>
 
